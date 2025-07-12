@@ -386,7 +386,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1397455187}
   - component: {fileID: 1397455186}
-  - component: {fileID: 1397455185}
   - component: {fileID: 1397455188}
   m_Layer: 0
   m_Name: Asteroid_01
@@ -395,20 +394,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1397455185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397455184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8ed4dcb7052d5844a621678eb70ab4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  targetColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!212 &1397455186
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -488,7 +473,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1397455184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 243f577981bbc3a46af1403c711155b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d40002cb2c1abe47b9aa1e26bfe6e2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
